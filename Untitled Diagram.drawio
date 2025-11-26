@@ -1,9 +1,101 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.0.3">
   <diagram name="Page-1" id="LTmzasIZgdMWUcBCa1Mo">
-    <mxGraphModel>
+    <mxGraphModel dx="1273" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="lCSYBvtNC5ov4sU9qu0t-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lCSYBvtNC5ov4sU9qu0t-1" target="lCSYBvtNC5ov4sU9qu0t-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lCSYBvtNC5ov4sU9qu0t-1" value="App Request Encrypt/Decrypt" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lCSYBvtNC5ov4sU9qu0t-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lCSYBvtNC5ov4sU9qu0t-3" target="lCSYBvtNC5ov4sU9qu0t-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lCSYBvtNC5ov4sU9qu0t-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lCSYBvtNC5ov4sU9qu0t-3" target="lCSYBvtNC5ov4sU9qu0t-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lCSYBvtNC5ov4sU9qu0t-3" value="Does Key &#39;secret_key&#39;&lt;div&gt;exist in KeyStore&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="160" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lCSYBvtNC5ov4sU9qu0t-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lCSYBvtNC5ov4sU9qu0t-4" target="lCSYBvtNC5ov4sU9qu0t-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lCSYBvtNC5ov4sU9qu0t-35" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lCSYBvtNC5ov4sU9qu0t-4" target="lCSYBvtNC5ov4sU9qu0t-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="370" />
+              <mxPoint x="790" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lCSYBvtNC5ov4sU9qu0t-4" value="&lt;div&gt;Key Loaded &amp;amp;&lt;/div&gt;&lt;div&gt;Ready for Cipher&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lCSYBvtNC5ov4sU9qu0t-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lCSYBvtNC5ov4sU9qu0t-5" target="lCSYBvtNC5ov4sU9qu0t-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lCSYBvtNC5ov4sU9qu0t-5" value="&lt;div&gt;Generate New AES Key&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;exist in Keystore?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;(AndroidKeyStore)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="170" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lCSYBvtNC5ov4sU9qu0t-28" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lCSYBvtNC5ov4sU9qu0t-6" target="lCSYBvtNC5ov4sU9qu0t-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lCSYBvtNC5ov4sU9qu0t-6" value="&lt;div&gt;Input: String&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;input: Base64 String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(e.g., &quot;chong&quot;)&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="395" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lCSYBvtNC5ov4sU9qu0t-31" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lCSYBvtNC5ov4sU9qu0t-7" target="lCSYBvtNC5ov4sU9qu0t-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lCSYBvtNC5ov4sU9qu0t-7" value="Input: Base64 String&lt;br&gt;&lt;div&gt;(e.g., &quot;chong&quot;)&lt;br&gt;(From Firestore)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="395" width="160" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="lCSYBvtNC5ov4sU9qu0t-29" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lCSYBvtNC5ov4sU9qu0t-8" target="lCSYBvtNC5ov4sU9qu0t-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lCSYBvtNC5ov4sU9qu0t-8" value="&lt;div&gt;Init Cipher (ENCRYPT_MODE)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;UNPACKING&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;*System creates random IV*&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="520" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="lCSYBvtNC5ov4sU9qu0t-30" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lCSYBvtNC5ov4sU9qu0t-9" target="lCSYBvtNC5ov4sU9qu0t-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lCSYBvtNC5ov4sU9qu0t-9" value="&lt;div&gt;PACKING DATA&lt;/div&gt;&lt;div&gt;[IV Length] + [IV] +&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Init Cipher (DECRYPT_MODE)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;[Data Length] + [Encrypted Bytes]&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="680" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="lCSYBvtNC5ov4sU9qu0t-10" value="&lt;div&gt;Convert to Base64&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Convert Bytes to String&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Output: String&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="850" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lCSYBvtNC5ov4sU9qu0t-32" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lCSYBvtNC5ov4sU9qu0t-11" target="lCSYBvtNC5ov4sU9qu0t-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lCSYBvtNC5ov4sU9qu0t-11" value="&lt;div&gt;UNPACKING&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;*System creates random IV*&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. Read IV Length -&amp;gt; Read IV&lt;/div&gt;&lt;div&gt;2 Read Data Length -&amp;gt; Read Data&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="520" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lCSYBvtNC5ov4sU9qu0t-33" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lCSYBvtNC5ov4sU9qu0t-12" target="lCSYBvtNC5ov4sU9qu0t-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lCSYBvtNC5ov4sU9qu0t-12" value="&lt;div&gt;Init Cipher (DECRYPT_MODE)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;[Data Length] + [Encrypted Bytes]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;*Must use extracted IV*&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="690" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="lCSYBvtNC5ov4sU9qu0t-13" value="&lt;div&gt;Convert Bytes to String&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Output: String&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Output: &quot;chong&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="725" y="860" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lCSYBvtNC5ov4sU9qu0t-19" value="Phase 1: KEY MANAGEMENT" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="10" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lCSYBvtNC5ov4sU9qu0t-20" value="yes" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lCSYBvtNC5ov4sU9qu0t-21" value="no" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lCSYBvtNC5ov4sU9qu0t-36" value="Phase 2: Encryption" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="185" y="320" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lCSYBvtNC5ov4sU9qu0t-37" value="Phase 3: Decryption" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="330" width="170" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
